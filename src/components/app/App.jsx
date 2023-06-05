@@ -1,6 +1,7 @@
 import AppHeader from "../AppHeader/AppHeader";
 import RandomChar from "../randomChar/RandomChar";
 import CharList from "../charList/CharList";
+import CharInfo from "../charInfo/CharInfo";
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
                 <RandomChar/>
                 <div className="char__content">
                     <CharList/>
+                    <CharInfo/>
                 </div>
             </main>
         </div>
