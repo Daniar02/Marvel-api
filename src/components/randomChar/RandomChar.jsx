@@ -8,7 +8,7 @@ import mjolnir from '../../resources/img/mjolnir.png';
 
 const RandomChar = () => {
 
-    const [char, setChar] = useState({});
+    const [char, setChar] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
 
@@ -25,7 +25,7 @@ const RandomChar = () => {
     }, [])
 
     const onCharLoaded = (char) => {
-        setChar(char => char);
+        setChar(char);
         setLoading(false)
     }
 
