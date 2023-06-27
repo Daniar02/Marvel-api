@@ -5,7 +5,6 @@ import CharList from "../charList/CharList";
 import CharInfo from "../charInfo/CharInfo";
 import ErrorBoundary from "../errorBoundary/ErrorBoundary";
 
-
 const App = () => {
 
     const [selectedChar, setChar] = useState(null);
